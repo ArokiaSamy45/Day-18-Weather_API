@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(36, 64, 76);
+}
+
+.country_data{
+    background-image: linear-gradient(to left, rgb(65, 83, 83), rgb(220, 200, 165)) !important;
+    border: 2px;
+    margin: 10px;
+    padding:0px 10px 10px 10px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+
+    
+}
+.country_data p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+
+    
+}
+.Name {
+    margin-top: 0px;
+    padding:10px 10px 10px 10px;
+    background-color: black;
+    
+}
+.fl{ 
+    width:250px;
+    height: 100px;
+    
+   
+    
+}
+.country_data .wea{
+background-color: transparent;
+border-color: aliceblue;
+color: white !important;;
+
+}
+
+.country_data img {
+    display: inline-block;
+}
+
+

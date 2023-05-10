@@ -1,4 +1,5 @@
 
+
 async function api() {
   const response = await fetch('https://restcountries.com/v3.1/all');
   const countries = await response.json();
@@ -51,7 +52,7 @@ async function weatherapi(countryCode) {
       throw new Error('Could not find latitude and longitude for the country');
     }
     const [lat, lon] = latlng;
-    const API_KEY = '2e444cc9c7b026dc3daa6cd7962ab135';
+    const API_KEY = 'YourAPIKey';
     const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}`;
     const response2 = await fetch(url);
     const weatherData = await response2.json();
